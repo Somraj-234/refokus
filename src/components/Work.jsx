@@ -3,12 +3,12 @@ import { motion, useMotionValueEvent, useScroll } from "motion/react";
 
 function Work() {
   const [images, setImages] = useState([
-    { url: "src/assets/obys.png", top: "50%", left: "50%", isActive: false },
-    { url: "src/assets/fend.png", top: "56%", left: "44%", isActive: false },
-    { url: "src/assets/saas.png", top: "45%", left: "56%", isActive: false },
-    { url: "src/assets/obys2.png", top: "60%", left: "53%", isActive: false },
-    { url: "src/assets/blog.png", top: "43%", left: "40%", isActive: false },
-    { url: "src/assets/ui.png", top: "65%", left: "55%", isActive: false },
+    { url: "obys.png", top: "50%", left: "50%", isActive: false },
+    { url: "fend.png", top: "56%", left: "44%", isActive: false },
+    { url: "saas.png", top: "45%", left: "56%", isActive: false },
+    { url: "obys2.png", top: "60%", left: "53%", isActive: false },
+    { url: "blog.png", top: "43%", left: "40%", isActive: false },
+    { url: "ui.png", top: "65%", left: "55%", isActive: false },
   ]);
 
   //  TO GET THE SCROLL PROGRESS ON Y AXIS IN 0 TO 1 VALUES FOR TOP 0 AND FOR BOTTOM 1

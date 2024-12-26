@@ -36,7 +36,7 @@ function Navbar({ onNavigate, activeSection }) {
     >
       <div className="max-w-screen-xl mx-auto py-6 flex gap-10 items-center justify-between border-b-[1px] border-zinc-700 bg-zinc-900">
         <div className="nleft flex items-center">
-          <img src="/src/assets/42.png" alt="logo" />
+          <img src="42.png" alt="logo" />
           <nav className="links flex gap-14 ml-20">
             {["Home", "Work", "About", "", "Resume"].map((elem, index) =>
               elem.length === 0 ? (

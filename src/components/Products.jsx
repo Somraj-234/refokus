@@ -10,7 +10,7 @@ function Products() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
       live: true,
       casestudy: false,
-      url: "src/assets/saas.png",
+      url: "saas.png",
       link: "https://github.com/Somraj-234/sass-demo",
     },
     {
@@ -19,7 +19,7 @@ function Products() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
       live: true,
       casestudy: false,
-      url: "src/assets/blog.png",
+      url: "blog.png",
       link: "https://github.com/Somraj-234/Blogging-Blog",
     },
     {
@@ -28,7 +28,7 @@ function Products() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
       live: true,
       casestudy: false,
-      url: "src/assets/obys.png",
+      url: "obys.png",
       link: "https://somraj-234.github.io/Obys-Agency/",
     },
     {
@@ -37,7 +37,7 @@ function Products() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
       live: true,
       casestudy: false,
-      url: "src/assets/jobapply.png",
+      url: "jobapply.png",
       link: "https://github.com/Somraj-234/linkedin-easy-apply",
     },
     {
@@ -46,7 +46,7 @@ function Products() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
       live: true,
       casestudy: true,
-      url: "src/assets/ui.png",
+      url: "ui.png",
       link: "https://github.com/Somraj-234/",
     },
   ];
