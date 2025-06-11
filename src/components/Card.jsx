@@ -15,11 +15,12 @@ function Card({ width, first, second, start, para, hover = "false" }) {
         {first && (
           <>
             <div className="w-ful flex justify-between items-center">
-              <h3>Up Next: culture</h3>
+              <h3>Personal Information</h3>
               <IoIosArrowRoundForward />
             </div>
 
-            <h1 className="w-56 text-3xl font-medium mt-5">Who we are</h1>
+            <h1 className="w-56 text-3xl font-medium mt-5">Who I am?</h1>
+            <p className="text-zinc-500">I'm <span className="text-white">Somraj Jadhav</span>,  software engineer with a passion for building scalable and efficient systems with beautiful user interfaces and experiences. I'm currently <span className="text-white">open for work</span> and have a strong skillset in <span className="text-white">frontend development, python, and UI/UX design.</span></p>
           </>
         )}
         {second && (

@@ -62,7 +62,7 @@ const App = () => {
       <div id="home" data-scroll-section>
         <Work />
       </div>
-      <Stripes />
+      {/* <Stripes /> */}
       <div id="work" data-scroll-section>
         <Products />
       </div>

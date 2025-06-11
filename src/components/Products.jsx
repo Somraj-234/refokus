@@ -5,49 +5,43 @@ import { motion } from "motion/react";
 function Products() {
   var prodcuts = [
     {
-      title: "SaaS WebApp",
+      title: "Bityboi",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
+      "A modern URL shortener built using Django REST, React, and Tailwind. Includes login, Google auth, click tracking, and multi-delete.",
       live: true,
       casestudy: false,
-      url: "saas.png",
-      link: "https://github.com/Somraj-234/sass-demo",
+      url: "./bityboi2.png",
+      link: "https://bityboi.vercel.app/",
+     github: "https://github.com/Somraj-234/bityboi",
     },
     {
-      title: "Blogging Blog",
+      title: "Communion",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
+      "A social platform to connect with people based on shared interests, hobbies, and location. Create groups, chat, organize or attend events, and build communities.",
       live: true,
       casestudy: false,
-      url: "blog.png",
-      link: "https://github.com/Somraj-234/Blogging-Blog",
+      url: "./communion.png",
+      link: "https://communionhub.org/",
+      info: "Note: Communion is a public project I worked on as a frontend developer during my internship at the company. I was responsible for designing and developing the user interface for both projects."
     },
     {
-      title: "Obys Agency",
+      title: "Vidgencraft",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
+      "An AI-based content generation tool that lets users create images, videos, and audio using text or media input, with a built-in media library and multi-model support.",
       live: true,
       casestudy: false,
-      url: "obys.png",
-      link: "https://somraj-234.github.io/Obys-Agency/",
-    },
-    {
-      title: "Job Apply Bot",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
-      live: true,
-      casestudy: false,
-      url: "jobapply.png",
-      link: "https://github.com/Somraj-234/linkedin-easy-apply",
+      url: "./vidgencraft.png",
+      link: "https://vidgencraft.com/",
+       info: "Note: Vidgencraft is a public project I worked on as a frontend developer during my internship at the company. I was responsible for designing and developing the user interface for both projects."
     },
     {
       title: "Food Chain",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque vero officia deleniti id quo aliquam quam ipsam porro. Dignissimos.",
-      live: true,
+      "Landing page design for a vegan sandwich chain with delivery tracking, restaurant management, and order insights.",
+      live: false,
       casestudy: true,
-      url: "ui.png",
-      link: "https://github.com/Somraj-234/",
+      url: "./ui2.png",
+      link: "https://www.figma.com/proto/ozBFHWtNwLddfWylRZRlJa/Restaurant-Management-SaaS?node-id=9-2&t=FKXxf1lh3WWxZ1WM-1",
     },
   ];
 
@@ -57,7 +51,7 @@ function Products() {
   };
 
   return (
-    <div className="mt-20 relative">
+    <div className="mt-28 relative">
       {prodcuts.map((elem, index) => (
         <Product key={index} mover={mover} count={index} val={elem} />
       ))}
@@ -96,13 +90,7 @@ function Products() {
           >
             <img className="rounded-md" src={prodcuts[3].url} alt="" />
           </motion.div>
-          <motion.div
-            animate={{ y: -pos + `rem` }}
-            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
-            className="w-full h-full object-cover"
-          >
-            <img className="rounded-md" src={prodcuts[4].url} alt="" />
-          </motion.div>
+          
         </motion.div>
       </div>
     </div>

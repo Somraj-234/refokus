@@ -4,33 +4,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* [data-scroll-container] {
+[data-scroll-container] {
   overflow: hidden;
 }
 
 [data-scroll-section] {
   position: relative;
-} */
+}
 
-/* @layer base {
+@layer base {
     @font-face {
       font-family: 'Gilroy Regular';
       font-weight: 400;
-      src: url("./assets/fonts/Gilroy-Regular.ttf") format("truetype");
+      src: url("./fonts/Gilroy-Regular.ttf") format("truetype");
     }
     @font-face {
     font-family: 'Gilroy Regular';
     font-weight: 700;
-    src: url("./assets/fonts/Gilroy-Bold.ttf") format("truetype");
+    src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
     }
     @font-face {
         font-family: 'Gilroy Regular';
         font-weight: 500;
-        src: url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
+        src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
       }
   }
-   */
+  
 
-/* *{
+*{
     font-family:'Gilroy Regular';
-} */
+}

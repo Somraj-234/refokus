@@ -18,7 +18,7 @@ function Navbar({ onNavigate, activeSection }) {
     if (section === "resume") {
       // Replace this URL with your actual resume URL
       window.open(
-        "https://drive.google.com/file/d/1xL-woPVfq2WQyeMnpmEaW09fEgRYzf6K/view?usp=sharing",
+        "https://drive.google.com/file/d/1qhZaSvHig46n6BPlufaHV7ml3tzGoO7b/view?usp=sharing",
         "_blank"
       );
     } else {

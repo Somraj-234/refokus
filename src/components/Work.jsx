@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { motion, useMotionValueEvent, useScroll } from "motion/react";
+import { useScroll } from "motion/react";
 
 function Work() {
   const [images, setImages] = useState([
-    { url: "obys.png", top: "50%", left: "50%", isActive: false },
-    { url: "fend.png", top: "56%", left: "44%", isActive: false },
-    { url: "saas.png", top: "45%", left: "56%", isActive: false },
-    { url: "obys2.png", top: "60%", left: "53%", isActive: false },
-    { url: "blog.png", top: "43%", left: "40%", isActive: false },
+    { url: "bityboi.png", top: "50%", left: "50%", isActive: false },
+    { url: "communion.png", top: "56%", left: "44%", isActive: false },
+    { url: "vidgencraft.png", top: "45%", left: "56%", isActive: false },
+    // { url: "obys2.png", top: "60%", left: "53%", isActive: false },
+    // { url: "blog.png", top: "43%", left: "40%", isActive: false },
     { url: "ui.png", top: "65%", left: "55%", isActive: false },
   ]);
 
@@ -49,12 +49,12 @@ function Work() {
       case 4:
         imagesShow([0, 1, 2, 3]);
         break;
-      case 6:
-        imagesShow([0, 1, 2, 3, 4]);
-        break;
-      case 8:
-        imagesShow([0, 1, 2, 3, 4, 5]);
-        break;
+      // case 6:
+      //   imagesShow([0, 1, 2, 3, 4]);
+      //   break;
+      // case 8:
+      //   imagesShow([0, 1, 2, 3, 4, 5]);
+      //   break;
     }
   });
 
@@ -70,7 +70,7 @@ function Work() {
               elem.isActive && (
                 <img
                   key={index}
-                  className="absolute w-52 h-52 object-cover rounded-lg -translate-x-[50%] -translate-y-[50%]"
+                  className="absolute w-80 h-48 object-cover rounded-lg -translate-x-[50%] -translate-y-[50%]"
                   src={elem.url}
                   style={{ top: elem.top, left: elem.left }}
                 ></img>
