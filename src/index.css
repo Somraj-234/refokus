@@ -16,17 +16,17 @@
     @font-face {
       font-family: 'Gilroy Regular';
       font-weight: 400;
-      src: url("./fonts/Gilroy-Regular.ttf") format("truetype");
+      src: url("/fonts/Gilroy-Regular.ttf") format("truetype");
     }
     @font-face {
     font-family: 'Gilroy Regular';
     font-weight: 700;
-    src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
+    src: url("/fonts/Gilroy-Bold.ttf") format("truetype");
     }
     @font-face {
         font-family: 'Gilroy Regular';
         font-weight: 500;
-        src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
+        src: url("/fonts/Gilroy-Medium.ttf") format("truetype");
       }
   }
   
